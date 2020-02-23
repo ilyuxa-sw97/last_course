@@ -11,4 +11,10 @@
         "description": "Диаграмма классов",
         "preview": "img/class-diagram.png"
     }
+    {
+        "id": 3,
+        "title": "Лабораторная 1",
+        "description": "Разметка личной страницы, разработка UML Use Case",
+        "preview": "img/Laba1.png"
+    }
 ]
