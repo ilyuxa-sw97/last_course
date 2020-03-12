@@ -63,7 +63,7 @@
         },
          {
             "type": "image",
-            "data": "img/ActorsAndGoals.PNG"
+            "data": "img/ActorsAndGoals.png"
         },
         {
             "type": "text",
@@ -116,7 +116,7 @@
         },
         {
           "type": "image",
-          "data": "img/MainFlow.PNG"
+          "data": "img/MainFlow.png"
         },
 	{
             "type": "text",
