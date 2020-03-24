@@ -1,0 +1,36 @@
+@startuml
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+skinparam usecase {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+left to right direction
+actor M as "Разработчик"
+actor M0 as "Куратор"
+actor G as "Среда разработки"
+actor T as "СУБД"
+actor J as "Программные средства"
+
+package APP as "Разработка системы автоматизированного учета операционной деятельности производства электротехнического оборудования"{
+usecase A as "Разработка пользовательского интерфейса"
+usecase B as "Написание кода программы"
+usecase C as "Подготовка базы данных"
+usecase D as "Написание запросов к базе данных"
+}
+T --|> J
+M0 <|-- M
+G --|> J
+M -- A
+M -- B
+M -- C
+M -- D
+A -- G
+B -- G
+C -- T
+D -- T
+@enduml
